@@ -7,7 +7,8 @@ function Productlist({Products}){
   return (
 <div>
 <div >
-  {Products.map(function(item){
+  {
+    Products.map(function(item){
   return<Product
           title={item.title} 
           category={item.category} 

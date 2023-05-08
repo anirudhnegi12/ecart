@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 import ProductList from './ProductList';
 
 function App() {
-  
+
   const data = [
     {
       photo: "https://i.dummyjson.com/data/products/100/thumbnail.jpg",
@@ -13,36 +13,8 @@ function App() {
       category: "CRISTAL",
       price: 13,
     },
-    {
-      photo: "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-      title: "I-PHONE",
-      category: "PHONE",
-      price: 17,
-    },
-    {
-      photo: "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-      title: "I-PHONE",
-      category: "PHONE",
-      price: 13,
-    },
-    {
-      photo: "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
-      title: "OPPO F19",
-      category: "PHONE",
-      price: 13,
-    },
-    {
-      photo: "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
-      title: "PERFUME OIL",
-      category: "PERFUME",
-      price: 13,
-    },
-    {
-      photo: "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
-      title: "RED-SPRAY",
-      category: "SPRAY",
-      price: 13,
-    },
+   
+  
     {
       photo: "https://i.dummyjson.com/data/products/14/thumbnail.jpg",
       title: "FRAGNENCE",
@@ -81,16 +53,12 @@ function App() {
 
     }
   ]
-function handlechange(){
 
-
-  
-}
   return (
 
     <div>
       <Navbar></Navbar>
-      <div  className="p-2 flex">
+      <div className=" p-2">
         <input placeholder="SEARCH" className="border-gray-600 rounded -md -2 mb-2"
           onchange="{handlechange}" />
       </div >
